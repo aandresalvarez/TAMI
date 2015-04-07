@@ -1,0 +1,10 @@
+<header>sdfasdfasd</header>
+<nav>
+<ul>test</ul>
+<section>
+<h1>Marcadores</h1>
+<ul>
+{% for N in marcadores %}
+<li> {{N.nombre}} - Percentil Superior : <em> {{N.percentil_superior}}, Percentil Inferior - {{N.percentil_inferior}}</em></li>
+</ul>{%endfor%}
+</section>
